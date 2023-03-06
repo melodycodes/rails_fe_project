@@ -5665,7 +5665,7 @@
   application.debug = false;
   window.Stimulus = application;
 
-  // app/javascript/controllers/hello_controller.js
+  // app/javascript/controllers/hello_controller.ts
   var hello_controller_default = class extends Controller {
     connect() {
       this.element.textContent = "Hello World!";
